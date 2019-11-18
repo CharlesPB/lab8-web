@@ -1,0 +1,59 @@
+body {
+	  font-family: times;
+    background-color: #CEF6CE;
+}
+h1 {
+  border: 20px;
+  margin: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    border: 15px;
+}
+
+.posts {
+  border: 2px solid black;
+  padding: 7px;
+  width: 500px;
+  margin: 10px;
+
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+form {
+  margin: 15px;
+  padding: 10px;
+}
+
+fieldset {
+  font-size: 15px;
+  width: 600px;
+  border-radius: 5px;
+}
+legend {
+  font-size: 20px;
+}
+
+button, input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 7px 7px;
+  background-color: white;
+}
+
+textarea {
+  width: 150px;
+  height: 100px;
+}
+
+div {
+  margin: 5px;
+}
+
+.errMessage {
+  color: red;
+  font-size: 15px;
+}

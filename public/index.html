@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lab 8</title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1> Blog Posts </h1>
+
+    <ul id="postsList">
+
+    </ul>
+
+    <form id="newPost">
+        <fieldset>
+            <legend>Publish a new post</legend>
+            <div>
+              <label for="title"> Title </label>
+						  <input type="text" name="title" class="formElement" id="title">
+            </div>
+            <div>
+						  <label for="author"> Author </label>
+						  <input type="text" name="author" class="formElement" id ="author">
+            </div>
+            <div>
+              <label for="content"> Content </label>
+            </div>
+
+            <textarea id="content"></textarea>
+
+            <div>
+              <button type="submit" id="createPostBtn">Post</button>
+            </div>
+
+        </fieldset>
+    </form>
+
+    <form id="deletePost">
+        <fieldset>
+            <legend>Delete a post</legend>
+            <div>
+              <label for="id"> ID of post to delete </label>
+						  <input type="text" name="id" class="formElement" id="idDelete">
+            </div>
+            <button type="submit" id="deletePostBtn">Delete</button>
+        </fieldset>
+    </form>
+
+    <form id="updatePost">
+        <fieldset>
+            <legend>Update a post</legend>
+            <div>
+              <label for="id"> ID of post to update </label>
+						  <input type="text" name="id" class="formElement" id="idUpdate">
+            </div>
+            <div>
+              <label for="title"> Title </label>
+						  <input type="text" name="title" class="formElement" id="titleUpdate">
+            </div>
+            <div>
+						  <label for="author"> Author </label>
+					  	<input type="text" name="author" class="formElement" id ="authorUpdate">
+            </div>
+            <div>
+              <label for="content"> Content </label>
+            </div>
+					  <span>
+                <textarea id="contentUpdate"></textarea>
+            </span>
+            <div>
+              <label for="publishDate"> Publish Date: </label>
+						  <input type="text" name="publishDate" class="formElement" id ="publishDate">
+            </div>
+
+            <button type="submit" id="updatePostBtn">Update</button>
+        </fieldset>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
